@@ -678,7 +678,6 @@ blockquote {
 .navbar-brand img{
 	float: left;
 	width: 70%;
-	margin-left: -10px;
 
 }
 
@@ -1823,42 +1822,6 @@ figure.effect-oscar:hover img {
 
 .team-content p{
 	color: #959595;
-}
-
-.team-social a{
-	background: #d5d5d5;
-	color: #fff;
-	width: 28px;
-	height: 28px;
-	line-height: 28px;
-	border-radius: 100%;
-	display: inline-block;
-	text-align: center;
-	-moz-transition: all 300ms ease;
-	-webkit-transition: all 300ms ease;
-	-ms-transition: all 300ms ease;
-	-o-transition: all 300ms ease;
-	transition: all 300ms ease;
-}
-
-.team-social a.fb:hover{
-	background: #325c94;
-}
-
-.team-social a.twt:hover{
-	background: #00abdc;
-}
-
-.team-social a.gplus:hover{
-	background: #dd4b39;
-}
-
-.team-social a.linkdin:hover{
-	background: #007bb6;
-}
-
-.team-social a.dribble:hover{
-	background: #ea4c89;
 }
 
 
@@ -3268,6 +3231,4 @@ iframe{
 .owl-controls .owl-page span{
 	border: 1px solid #e7e7e7;
 }
-
-
-
+ 
