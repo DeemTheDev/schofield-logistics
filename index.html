@@ -347,7 +347,9 @@
 					<div class="col-sm-3 web-design isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/Gallery/Gallery-1.jpg" alt="">
+								<div class="image-container">
+									<img src="images/Gallery/Gallery-1.jpg" alt="">
+								</div>
 								<figcaption>
 									<h3>Startup Business</h3>
 								</figcaption>			
@@ -358,7 +360,9 @@
 					<div class="col-sm-3 development isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/Gallery/Gallery-2.jpg" alt="">
+								<div class="image-container">
+									<img src="images/Gallery/Gallery-2.jpg" alt="">
+								</div>
 								<figcaption>
 									<h3>Easy to Lanunch</h3>     
 								</figcaption>				
@@ -369,7 +373,9 @@
 					<div class="col-sm-3 joomla isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/Gallery/Gallery-3.jpg" alt="">
+								<div class="image-container">
+									<img src="images/Gallery/Gallery-3.jpg" alt="">
+								</div>
 								<figcaption>
 									<h3>Your Business</h3>            
 								</figcaption>				
@@ -380,7 +386,9 @@
 					<div class="col-sm-3 wordpress isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/Gallery/Gallery-4.jpg" alt="">
+								<div class="image-container">
+									<img src="images/Gallery/Gallery-4.jpg" alt="">
+								</div>
 								<figcaption>
 									<h3>Prego Match</h3>           
 								</figcaption>					
@@ -391,7 +399,9 @@
 					<div class="col-sm-3 joomla isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/Gallery/Gallery-5.jpg" alt="">
+								<div class="image-container">
+									<img src="images/Gallery/Gallery-5.jpg" alt="">
+								</div>
 								<figcaption>
 									<h3>Fashion Brand</h3>           
 								</figcaption>					
@@ -401,8 +411,9 @@
 
 					<div class="col-sm-3 development isotope-item">
 						<div class="grid">
-							<figure class="effect-oscar">
+							<figure class="effect-oscar"><div class="image-container">
 								<img src="images/Gallery/Gallery-6.jpg" alt="">
+							</div>
 								<figcaption>
 									<h3>The Insidage</h3>            
 								</figcaption>					
@@ -413,7 +424,9 @@
 					<div class="col-sm-3 development isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/Gallery/Gallery-7.jpg" alt="">
+								<div class="image-container">
+									<img src="images/Gallery/Gallery-7.jpg" alt="">
+								</div>
 								<figcaption>
 									<h3>Light Carpet</h3>            
 								</figcaption>					
@@ -424,7 +437,9 @@
 					<div class="col-sm-3 development isotope-item">
 						<div class="grid">
 							<figure class="effect-oscar">
-								<img src="images/Gallery/Gallery8.jpg" alt="">
+								<div class="image-container">
+									<img src="images/Gallery/Gallery8.jpg" alt="">
+								</div>
 								<figcaption>
 									<h3>Amazing Keyboard</h3>           
 								</figcaption>					
@@ -478,21 +493,28 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInLeft">
 						<div class="img-hexagon">
-							<img src="images/team/team1.jpg" alt="">
+							<img src="images/service/security-camera.gif" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
 						<div class="team-content">
-							<h5>Monitoring of Cargo Status</h5>
-							<a onclick="showPopup();">View More</a>
+							<h4>Monitoring of Cargo Status</h4>
+							<button class="btn btn-primary solid" onclick="showPopup('myModal1');">View More</button>
 						</div>
 					</div>	
 				</div>
 				<!-- The Modal -->
-				<div id="myModal" class="modal">
+				<div id="myModal1" class="modal">
 					<div class="modal-content">
-						<span class="close" onclick="closePopup()">&times;</span>
-						<p>This is some additional information about Transport Subcontractors.</p>
+						<span class="close" onclick="closePopup('myModal1')"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+						<div class="img-hexagon">
+							<img src="images/service/security-camera.gif" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<h4>Monitoring of Cargo Status</h4>
+						<p>With container unpack depots. With port authorities and shipping lines to secure update on vessel status to establish discharge dates. This ensures timeous upliftment and delivery of cargo.
+						</p>
 						<!-- Add more content here if needed -->
 					</div>
 				</div>
@@ -500,21 +522,28 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInLeft">
 						<div class="img-hexagon">
-							<img src="images/team/team2.jpg" alt="">
+							<img src="images/service/truck-service.gif" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
 						<div class="team-content">
-							<h5>Transport Subcontractors</h5>
-							<a onclick="showPopup();">View More</a>
+							<h4>Transport Subcontractors</h4>
+							<button class="btn btn-primary solid" onclick="showPopup('myModal2');">View More</button>
 						</div>
 					</div>
 				</div>
 				<!-- The Modal -->
-				<div id="myModal" class="modal">
+				<div id="myModal2" class="modal">
 					<div class="modal-content">
-						<span class="close" onclick="closePopup()">&times;</span>
-						<p>This is some additional information about Transport Subcontractors.</p>
+						<span class="close" onclick="closePopup('myModal2')"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+						<div class="img-hexagon">
+							<img src="images/service/truck-service.gif" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<h4>Transport Subcontractors</h4>
+						<p>Schofield Logistics have partnered with a network of trustworthy and professional transporters, which ensures greater efficiencies, prompt on-time performance and competitive stable tariffs.
+						</p>
 						<!-- Add more content here if needed -->
 					</div>
 				</div>
@@ -522,21 +551,27 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInRight">
 						<div class="img-hexagon">
-							<img src="images/team/team3.jpg" alt="">
+							<img src="images/service/globe-service.gif" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
 						<div class="team-content">
-							<h5>Vehicle Tracking & Monitoring</h5>
-							<a onclick="showPopup();">View More</a>
+							<h4>Vehicle Tracking & Monitoring</h4>
+							<button class="btn btn-primary solid" onclick="showPopup('myModal3');">View More</button>
 						</div>
 					</div>
 				</div>
 				<!-- The Modal -->
-				<div id="myModal" class="modal">
+				<div id="myModal3" class="modal">
 					<div class="modal-content">
-						<span class="close" onclick="closePopup()">&times;</span>
-						<p>This is some additional information about Transport Subcontractors.</p>
+						<span class="close" onclick="closePopup('myModal3')"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+						<div class="img-hexagon">
+							<img src="images/service/globe-service.gif" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<h4>Vehicle Tracking & Monitoring</h4>
+						<p>Schofield Logistics subcontractors utilize satellite and monitoring systems. This system is used for security and the tracking of vehicles as well as detects the performance measurement of vehicles. This includes evaluation of route schedules, compliance to route plans, vehicle loading and offloading times as well as vehicle times.</p>
 						<!-- Add more content here if needed -->
 					</div>
 				</div>
@@ -544,21 +579,27 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team animate wow slideInRight">
 						<div class="img-hexagon">
-							<img src="images/team/team4.jpg" alt="">
+							<img src="images/service/report-service.gif" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
 						<div class="team-content">
-							<h5>Daily Upliftment & Status Report</h5>
-							<a onclick="showPopup();">View More</a>
+							<h4>Daily Upliftment & Status Report</h4>
+							<button class="btn btn-primary solid" onclick="showPopup('myModal4');">View More</button>
 						</div>
 					</div>
 				</div>
 				<!-- The Modal -->
-				<div id="myModal" class="modal">
+				<div id="myModal4" class="modal">
 					<div class="modal-content">
-						<span class="close" onclick="closePopup()">&times;</span>
-						<p>This is some additional information about Transport Subcontractors.</p>
+						<span class="close" onclick="closePopup('myModal4')"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+						<div class="img-hexagon">
+							<img src="images/service/report-service.gif" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<h4>Daily Upliftment & Status Report</h4>
+						<p>This report confirms the date and time of upliftment, estimated time of delivery, customer’s reference number and various important details to facilitate effective communication with regards to deliveries and the successful update of customer files.</p>
 						<!-- Add more content here if needed -->
 					</div>
 				</div>
@@ -566,35 +607,55 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInLeft">
 						<div class="img-hexagon">
-							<img src="images/team/team1.jpg" alt="">
+							<img src="images/service/clock-service.gif" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
 						<div class="team-content">
-							<h5>24 Hour Operation Control</h5>
-							<a onclick="showPopup();">View More</a>
+							<h4>24 Hour Control</h4>
+							<button class="btn btn-primary solid" onclick="showPopup('myModal5');">View More</button>
 						</div>
 					</div>	
+				</div>
+				<!-- The Modal -->
+				<div id="myModal5" class="modal">
+					<div class="modal-content">
+						<span class="close" onclick="closePopup('myModal5')"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+						<div class="img-hexagon">
+							<img src="images/service/clock-service.gif" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<h4>24 Hour Control</h4>
+						<p>Schofield Logistics are available on a 24 hour basis. Subcontractors have nightshift controllers responsible for monitoring, controlling and managing vehicles after hours and resolve various problems that may arise.</p>
+						<!-- Add more content here if needed -->
+					</div>
 				</div>
 				<!--/ Service 5 end -->
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInLeft">
 						<div class="img-hexagon">
-							<img src="images/team/team2.jpg" alt="">
+							<img src="images/service/signal-service.gif" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
 						<div class="team-content">
-							<h5>Cellular Communication</h5>
-							<a onclick="showPopup();">View More</a>
+							<h4>Cellular Communication</h4>
+							<button class="btn btn-primary solid" onclick="showPopup('myModal6');">View More</button>
 						</div>
 					</div>
 				</div>
 				<!-- The Modal -->
-				<div id="myModal" class="modal">
+				<div id="myModal6" class="modal">
 					<div class="modal-content">
-						<span class="close" onclick="closePopup()">&times;</span>
-						<p>This is some additional information about Transport Subcontractors.</p>
+						<span class="close" onclick="closePopup('myModal6')"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+						<div class="img-hexagon">
+							<img src="images/service/signal-service.gif" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<h4>Cellular Communication</h4>
+						<p>Schofield Logistic's subcontractor’s vehicles are fitted with cell phones further adding value to communication between drivers, operations personnel and customers. This enhances the accuracy of information relayed onto the customer.</p>
 						<!-- Add more content here if needed -->
 					</div>
 				</div>
@@ -602,21 +663,28 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team wow slideInRight">
 						<div class="img-hexagon">
-							<img src="images/team/team3.jpg" alt="">
+							<img src="images/service/spin-service.gif" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
 						<div class="team-content">
-							<h5>Backup Fleet</h5>
-							<a onclick="showPopup();">View More</a>
+							<h4>Backup Fleet</h4>
+							<button class="btn btn-primary solid" onclick="showPopup('myModal7');">View More</button>
 						</div>
 					</div>
 				</div>
 				<!-- The Modal -->
-				<div id="myModal" class="modal">
+				<div id="myModal7" class="modal">
 					<div class="modal-content">
-						<span class="close" onclick="closePopup()">&times;</span>
-						<p>This is some additional information about Transport Subcontractors.</p>
+						<span class="close" onclick="closePopup('myModal7')"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+						<div class="img-hexagon">
+							<img src="images/service/spin-service.gif" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<h4>Backup Fleet</h4>
+						<p>Over and above Schofield Logistic's dedicated subcontracted fleets, the company has access to a wide base of subcontractors conforming to predetermined quality standards, assisting during peak periods.
+							The company prides itself on its close affiliations to associations and organizations, improving the stature of the company holistically.</p>
 						<!-- Add more content here if needed -->
 					</div>
 				</div>
@@ -624,21 +692,27 @@
 				<div class="col-md-3 col-sm-6">
 					<div class="team animate wow slideInRight">
 						<div class="img-hexagon">
-							<img src="images/team/team4.jpg" alt="">
+							<img src="images/service/risk-service.gif" alt="">
 							<span class="img-top"></span>
 							<span class="img-bottom"></span>
 						</div>
 						<div class="team-content">
-							<h5>Risk Management</h5>
-							<a onclick="showPopup();">View More</a>
+							<h4>Risk Management</h4>
+							<button class="btn btn-primary solid" onclick="showPopup('myModal8');">View More</button>
 						</div>
 					</div>
 				</div>
 				<!-- The Modal -->
-				<div id="myModal" class="modal">
+				<div id="myModal8" class="modal">
 					<div class="modal-content">
-						<span class="close" onclick="closePopup()">&times;</span>
-						<p>This is some additional information about Transport Subcontractors.</p>
+						<span class="close" onclick="closePopup('myModal8')"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+						<div class="img-hexagon">
+							<img src="images/service/risk-service.gif" alt="">
+							<span class="img-top"></span>
+							<span class="img-bottom"></span>
+						</div>
+						<h4>Risk Management</h4>
+						<p>A tailor-made insurance package that ensures that the interest if an esteemed company is safeguarded at all times. As a result, Schofield Logistic has well considered a selection of subcontractors and insurance packages to protect the assets of clients and the company itself.</p>
 						<!-- Add more content here if needed -->
 					</div>
 				</div>
@@ -647,135 +721,24 @@
 		</div><!--/ Container end -->
     </section><!--/ Team end -->
 
-	<section id="feature" class="feature">
-		<div class="container">
-
-			<div class="row">
-				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-					<span class="feature-icon pull-left" ><i class="fa fa-heart-o"></i></span>
-					<div class="feature-content">
-						<h3>Clean &amp; Modern Design</h3>
-						<p>Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat</p>
-					</div>
-				</div><!--/ End first featurebox -->
-
-				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-					<span class="feature-icon pull-left" ><i class="fa fa-codepen"></i></span>
-					<div class="feature-content">
-						<h3>Useful Shortcodes</h3>
-						<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua</p>
-					</div>
-				</div><!--/ End first featurebox -->
-
-				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-					<span class="feature-icon pull-left" ><i class="fa fa-film"></i></span>
-					<div class="feature-content">
-						<h3>Parallax Section</h3>
-						<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
-					</div>
-				</div><!--/ End first featurebox -->
-			</div><!-- Content row end -->
-
-			<div class="gap-40"></div>
-
-			<div class="row">
-				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-					<span class="feature-icon pull-left" ><i class="fa fa-newspaper-o"></i></span>
-					<div class="feature-content">
-						<h3>Multipurpose Concept</h3>
-						<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
-					</div>
-				</div><!--/ End first featurebox -->
-
-				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-					<span class="feature-icon pull-left" ><i class="fa fa-desktop"></i></span>
-					<div class="feature-content">
-						<h3>Responsive Layout</h3>
-						<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
-					</div>
-				</div><!--/ End first featurebox -->
-
-				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-					<span class="feature-icon pull-left" ><i class="fa fa-pagelines"></i></span>
-					<div class="feature-content">
-						<h3>Light wight Performance</h3>
-						<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua</p>
-					</div>
-				</div><!--/ End first featurebox -->
-
-			</div><!-- Content row end -->
-
-			<div class="gap-40"></div>
-
-			<div class="row">
-				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-					<span class="feature-icon pull-left" ><i class="fa fa-recycle"></i></span>
-					<div class="feature-content">
-						<h3>Free Lifetime Updates</h3>
-						<p>Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat</p>
-					</div>
-				</div><!--/ End first featurebox -->
-
-				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-					<span class="feature-icon pull-left" ><i class="fa fa-diamond"></i></span>
-					<div class="feature-content">
-						<h3>Endless Possibilites</h3>
-						<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua</p>
-					</div>
-				</div><!--/ End first featurebox -->
-
-				<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-					<span class="feature-icon pull-left" ><i class="fa fa-whatsapp"></i></span>
-					<div class="feature-content">
-						<h3>24/7 Live Support</h3>
-						<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
-					</div>
-				</div><!--/ End first featurebox -->
-			</div><!-- Content row end -->
-
-		</div><!--/ Container end -->
-	</section><!--/ Service box end -->
+	
 
 	<!-- Testimonial start-->
 	<section class="testimonial parallax parallax3">
 		<div class="parallax-overlay"></div>
 	  	<div class="container">
-		    <div class="row">
-			    <div id="testimonial-carousel" class="owl-carousel owl-theme text-center testimonial-slide">
-			        <div class="item">
-			          	<div class="testimonial-thumb">
-			            	<img src="images/team/testimonial1.jpg" alt="testimonial">
-			          	</div>
-			          	<div class="testimonial-content">
-				            <p class="testimonial-text">
-				              Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using.
-				            </p>
-			            	<h3 class="name">Sarah Arevik<span>Chief Executive</span></h3>
-			          	</div>
-			        </div>
-			        <div class="item">
-			          	<div class="testimonial-thumb">
-			            	<img src="images/team/testimonial2.jpg" alt="testimonial">
-			          	</div>
-				        <div class="testimonial-content">
-				            <p class="testimonial-text">
-				              Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using.
-				            </p>
-				            <h3 class="name">Narek Bedros<span>Sr. Manager</span></h3>
-				        </div>
-			        </div>
-			        <div class="item">
-				        <div class="testimonial-thumb">
-				            <img src="images/team/testimonial3.jpg" alt="testimonial">
-				        </div>
-			          	<div class="testimonial-content">
-				            <p class="testimonial-text">
-				              Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose. Lorem Ipsum is that it as opposed to using.
-				            </p>
-			            	<h3 class="name">Taline Lucine<span>Sales Manager</span></h3>
-			          	</div>
-			        </div>
-			    </div><!--/ Testimonial carousel end-->
+		    <div class="row wow slideInLeft">
+			    <div class="contact-card">
+					<span><h3>Schofield Logistics South Africa</h3></span>
+					<span><i class="fa fa-address-book" aria-hidden="true"></i></span>
+					<h6>Address: 40 Tsessebe, Randjies Park, Midrand, 1685</h6>
+					<span><i class="fa fa-phone-square" aria-hidden="true"></i></span>
+					<h6>Tel: 010 020 5699</h6>
+					<span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+					<h6>Email: <a href="mailto:admin@schofieldlogistics.co.za">admin@schofieldlogistics.co.za</a></h6>
+					<span><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+					<h6>Registration No: 2018 / 598298 / 07</h6>
+					<img src="images/S.png" alt="Schofield Logistics Logo">
 		    </div><!--/ Row end-->
 	  	</div><!--/  Container end-->
 	</section><!--/ Testimonial end-->
@@ -787,20 +750,13 @@
 		  	<div class="row">
 				<div class="col-md-12 heading text-center">
 					<span class="icon-pentagon wow bounceIn animated"><i class="fa fa-envelope"></i></span>
-					<h2 class="title2">Subscribe With Us
+					<h2 class="title2">Come find us
 						<span class="title-desc">We Love to Work with Passion</span>
 					</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6 col-md-offset-3">
-					<form action="#" method="post" id="newsletter-form" class="newsletter-form wow bounceIn" data-wow-duration=".8s">
-						<div class="form-group">
-							<input type="email" name="email" id="newsletter-form-email" class="form-control form-control-lg" placeholder="Enter your email address" autocomplete="off">
-							<button class="btn btn-primary solid">Subscribe</button>
-						</div>
-					</form>
-				</div>
+				<iframe src="https://www.google.com/maps/place/7D+Corporate+Park+South,+40+Tsessebe+Cres,+Midrand,+Johannesburg,+1683/@-25.9551374,28.1169675,14.27z/data=!4m6!3m5!1s0x1e956fb7769988c1:0xe93299f31e38993a!8m2!3d-25.952054!4d28.138853!16s%2Fg%2F11csm1mfzl?entry=ttu" frameborder="0"></iframe>
 			</div><!--/ Content row end -->
 		</div><!--/ Container end -->
 	</section><!-- Newsletter end -->
@@ -975,6 +931,8 @@
 	<script type="text/javascript" src="js/custom.js"></script>
 	<!--Main JS for popups-->
 	<script type="text/javascript" src="js/main.js"></script>
+	<!--Lordicons-->
+	<script src="https://cdn.lordicon.com/lordicon.js"></script>
 	</div><!-- Body inner end -->
 </body>
 </html>
