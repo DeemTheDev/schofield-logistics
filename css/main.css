@@ -30,3 +30,66 @@
 .close:hover {
     color: black;
 }
+.black{
+    background-color: black;
+
+}
+.blue{
+    background-color: #fff;
+}
+.contact-card {
+    background-color: #f5f5f5;
+    padding: 19px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+    position: relative;
+}
+.contact-card img {
+    float: right;
+    width: 250px;
+    height:250px;
+    position: relative;
+    top: -23rem;
+}
+@media (max-width: 670px) {
+    .contact-card img{
+        width: 200px;
+        height:200px;
+        top: -19rem;
+    }
+}
+@media (max-width: 597px) {
+    .contact-card img{
+        width: 150px;
+        height:150px;
+        top: -17rem;
+    }
+}
+@media (max-width: 547px) {
+    .contact-card img{
+        display: none;
+    }
+}
+.contact-card h3 {
+    color: #333;
+}
+
+.contact-card h6 {
+    margin: 5px 0;
+    color: #666;
+}
+
+.contact-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+.contact-card i{
+    color: black;
+}
+.blue h1 h2 h3 h4 h5 h6 p span{
+    color: #007bff;
+}
+
+
+
