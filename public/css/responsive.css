@@ -104,7 +104,11 @@
 		padding: 60px 0;
 	}
 
-	/* Logo */
+	
+
+	.header2 .navbar-brand, .header3 .navbar-brand,
+	.header4 .navbar-brand{
+		padding-right: 0;/* Logo */
 	.navbar-brand{
 		width: auto;
 	}
@@ -112,10 +116,6 @@
 	.navbar-brand.navbar-bg{
 		width: 25%;
 	}
-
-	.header2 .navbar-brand, .header3 .navbar-brand,
-	.header4 .navbar-brand{
-		padding-right: 0;
 		padding-left: 0;
 	}
 
@@ -548,20 +548,30 @@
 /* Extra Small Devices, Phones */ 
 @media (max-width : 479px) {
 
+/* Logo */
+	.navbar-brand{
+		width: auto;
+	}
+
+	.navbar-brand.navbar-bg img{
+		width: 25%;
+	}
 	/* Slideshow */
 
 	#main-slide .slides img{
-		height: 230px;
+		height: 330px;
 	}
 
 	#main-slide .item img{
-		height: 250px;
+		height: 350px;
 	}
 
 }
 
 /* Custom, iPhone Retina */ 
 @media (max-width : 320px) and (max-width: 478px)  {
+
+
 
 
 
